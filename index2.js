@@ -51,7 +51,7 @@ async function run() {
     try {
         await client.connect();
         const certificateCollection = client.db('Ofs').collection('certificate');
-        const vendorCollection = client.db('Ofs').collection('vendor');
+        const vendorCollection = client.db('Ofs').collection('vendors');
         const pdfCollection = client.db('Ofs').collection('pdfs');
         const quaryCollection = client.db('Ofs').collection('quary');
         const mapCollection = client.db('Ofs').collection('mapdata');
