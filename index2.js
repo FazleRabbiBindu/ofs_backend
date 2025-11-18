@@ -11,11 +11,10 @@ const port = process.env.PORT || 5000;
 app.use(
     cors({
         origin: [
-            'http://localhost:5173', 
-            'http://localhost:5174',
-            'https://crudapp-beb6a.web.app', 
-            'http://10.0.2.2:5173',
-            'http://10.0.2.2:5174'
+            'https://ofsglobalsourcing.com/',
+            'http://ofsglobalsourcing.com/',
+            'https://www.ofsglobalsourcing.com/',
+            'http://www.ofsglobalsourcing.com/',
         ],
         credentials: true
     })
